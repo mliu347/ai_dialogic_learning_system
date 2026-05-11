@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+.env
+venv/
+.venv/
+
+# Conda
+conda-meta/
+
+# Models
+models/
+checkpoints/
+
+# Data
+datasets/raw/
+datasets/anonymized/
+
+# Logs
+logs/
+mlruns/
+
+# Mac
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/ai_dialogic_learning_system/
