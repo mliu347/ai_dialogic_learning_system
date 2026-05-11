@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-05-11">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <nodes>
+      <node id="IB" label="Invitation to build on ideas" />
+      <node id="B" label="Building on ideas" />
+      <node id="CH" label="Challenge" />
+      <node id="IR" label="Invitation for reasoning" />
+      <node id="R" label="Reasoning" />
+      <node id="IC" label="Invitation for coordination" />
+      <node id="SC" label="Simple coordination" />
+      <node id="RC" label="Reasoned coordination" />
+      <node id="II" label="Inquiry invitation" />
+      <node id="RB" label="Reference back" />
+      <node id="RW" label="Reference to wider context" />
+      <node id="F" label="Focusing" />
+      <node id="RD" label="Reflect on dialogue/activity" />
+    </nodes>
+    <edges>
+      <edge source="IB" target="B" id="0" weight="5" />
+      <edge source="B" target="R" id="1" weight="4" />
+      <edge source="B" target="SC" id="2" weight="3" />
+      <edge source="CH" target="R" id="3" weight="5" />
+      <edge source="CH" target="RC" id="4" weight="4" />
+      <edge source="IR" target="R" id="5" weight="5" />
+      <edge source="IR" target="RC" id="6" weight="3" />
+      <edge source="R" target="RC" id="7" weight="5" />
+      <edge source="IC" target="SC" id="8" weight="5" />
+      <edge source="SC" target="RC" id="9" weight="4" />
+      <edge source="II" target="IR" id="10" weight="4" />
+      <edge source="II" target="CH" id="11" weight="3" />
+      <edge source="II" target="R" id="12" weight="3" />
+      <edge source="RB" target="B" id="13" weight="3" />
+      <edge source="RB" target="R" id="14" weight="2" />
+      <edge source="RW" target="R" id="15" weight="4" />
+      <edge source="RW" target="RC" id="16" weight="3" />
+      <edge source="F" target="IR" id="17" weight="3" />
+      <edge source="F" target="B" id="18" weight="2" />
+      <edge source="RD" target="RC" id="19" weight="4" />
+      <edge source="RD" target="R" id="20" weight="3" />
+    </edges>
+  </graph>
+</gexf>
